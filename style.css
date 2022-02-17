@@ -17,12 +17,12 @@
 
 .card{
     background-color:hsl(216, 50%, 16%);
-    width: 265px;
-    height: 500px;
+    width: 270px;
+    height: 470px;
     margin: 40px 0;
     perspective: 600px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 32px 39px 0px ;
     
 }
@@ -38,7 +38,7 @@
 
 img{
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 p{
@@ -53,9 +53,12 @@ h1{
 .eth{
     color: hsl(178, 100%, 50%);
     float: left;
-    width: 25%;
 }
 .clock{
     float: right;
     
+}
+hr{
+    height: 0.1;
+     background-color: hsl(215, 51%, 70%);
 }
