@@ -52,4 +52,10 @@ h1{
 }
 .eth{
     color: hsl(178, 100%, 50%);
+    float: left;
+    width: 25%;
+}
+.clock{
+    float: right;
+    
 }
