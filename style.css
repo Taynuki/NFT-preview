@@ -36,10 +36,12 @@
     margin: 20px;
 }
 
-img{
+.nft{
     max-width: 100%;
     border-radius: 5px;
+    display: inline-flex;
 }
+
 
 p{
     color:hsl(215, 51%, 70%);
@@ -65,8 +67,16 @@ hr{
 }
 
 .info-container {
-    flex: 1 auto;
+    flex: 1 1 auto;
     display: flex;
     margin: auto;
     flex-wrap: nowrap;
+    align-self: auto;
+}
+.avatar{
+    flex-wrap: wrap;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
 }
