@@ -17,8 +17,8 @@
 
 .card{
     background-color:hsl(216, 50%, 16%);
-    width: 270px;
-    height: 470px;
+    width: 280px;
+    height: 480px;
     margin: 40px 0;
     perspective: 600px;
     position: relative;
@@ -42,8 +42,9 @@ img{
 }
 
 p{
-    opacity: 0.5; 
+    color:hsl(215, 51%, 70%);
     font-size: 14px;
+    opacity: 0.8;
 
 }
 h1{
@@ -52,13 +53,20 @@ h1{
 }
 .eth{
     color: hsl(178, 100%, 50%);
-    float: left;
-}
-.clock{
-    float: right;
     
 }
+.clock{
+    margin: auto;
+    
+}  
 hr{
     height: 0.1;
      background-color: hsl(215, 51%, 70%);
+}
+
+.info-container {
+    flex: 1 auto;
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
 }
